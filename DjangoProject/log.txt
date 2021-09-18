@@ -1,0 +1,17 @@
+2021-09-18 13:51:33 INFO-Getting details from user
+2021-09-18 13:51:33 INFO-Validating first name
+2021-09-18 13:51:33 INFO-Validating last name
+2021-09-18 13:51:33 INFO-Validating date of birth
+2021-09-18 13:51:33 INFO-Validating gender
+2021-09-18 13:51:33 INFO-Validating nationality
+2021-09-18 13:51:33 INFO-Validating city
+2021-09-18 13:51:33 INFO-Validating state
+2021-09-18 13:51:33 INFO-Validating pin code.
+2021-09-18 13:51:33 INFO-Validating qualification
+2021-09-18 13:51:33 INFO-Validating salary
+2021-09-18 13:51:33 INFO-Validating pan number
+2021-09-18 13:51:33 INFO-Validating age
+2021-09-18 13:51:33 INFO-Validating age gender criteria
+2021-09-18 13:51:33 INFO-Checking whether success or failure
+2021-09-18 13:53:47 INFO-C:\Users\sbadr\PycharmProjects\DjangoProject\DjangoProject\user_registration\urls.py changed, reloading.
+2021-09-18 13:53:47 DEBUG-Using proactor: IocpProactor

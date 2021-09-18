@@ -1,0 +1,131 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<div class="container">
+    <form method="post">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-25">
+                <label for="first_name">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="first_name" name="first_name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="middle_name">Middle Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="middle_name" name="middle_name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="last_name">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="last_name" name="last_name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="date_of_birth">Date of Birth</label>
+            </div>
+            <div class="col-75">
+                <input type="date" id="date_of_birth" name="date_of_birth">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="gender">Gender</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="gender" name="gender">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="nationality">Nationality</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="nationality" name="nationality">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="city">City</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="city" name="city">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="state">State</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="state" name="state">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="pincode">Pincode</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="pincode" name="pincode">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="qualification">Qualification</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="qualification" name="qualification">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="salary">Salary</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="salary" name="salary">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="pan_number">Pan Number</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="pan_number" name="pan_number">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
